@@ -1,0 +1,401 @@
+@layout('layout/main')
+
+@section('content')
+
+<section style="background: rgba(242, 235, 233, 0.6);; background-repeat: no-repeat; background-attachment: fixed; background-position:
+  center center; background-size: cover;">
+
+  <div class="text-center heading-title">
+    <p class="d-block  intro-txt1">PROGRAM
+
+        CURRICULUM</p>
+    <p class="d-block intro-txt2">Gain enough
+        knowledge to help scale <br> through the tech industry for free.</p>
+  </div>
+</section>
+
+
+{{--  curriculum begins  --}}
+<div class="container mt-5 mb-5">
+    <div class="row mx-auto" id="myAccordion">
+
+        <div class="col-lg-3 mt-3 d-block mx-auto">
+          <!--curriculum drop down menu-->
+            <div class="accordion">
+                <div class="card border-0 mb-3">
+                    <div class="card-header  tab-links" id="headingOne" data-toggle="collapse"
+                      data-target=".collapseOne">
+                        <h2 h2 class="mb-0 d-flex justify-content-between">
+                          <small class="sub-title pt-2"> UI/UX Design </small>
+                          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" class=" collapseOne  collapse" aria-labelledby="headingOne"
+                      data-parent="#myAccordion">
+                        <div class="card-b">
+                            <ul class="list-unstyled">
+                              <li class=" px-5 py-3 mb-2 list-div mb-2 mt-2">Visual Design</li>
+                              <li class="list-div px-5 py-3 mb-2">Use Research</li>
+                              <li class="list-div px-5 py-3 mb-2">User Strategy</li>
+                          </ul>
+                      </div>
+                  </div>
+
+              </div>
+                <div class="card border-0 mb-3">
+                      <div class="card-header tab-links" id="headingTwo" data-toggle="collapse"
+                      data-target=" .collapseTwo">
+                        <h2 class="mb-0 d-flex justify-content-between">
+                            <small class="sub-title pt-2"> Frontend Development </small>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapseTwo collapse" aria-labelledby="headingTwo"
+                      data-parent="#myAccordion">
+                        <div class="card-b">
+                            <ul class="list-unstyled">
+                              <li class=" px-5 py-3 mb-2 list-div mb-2 mt-2">HTML</li>
+                              <li class="list-div px-5 py-3 mb-2">CSS</li>
+                              <li class="list-div px-5 py-3 mb-2">Javascript</li>
+                            </ul>
+                       </div>
+                    </div>
+
+                </div>
+                <div class="card border-0 mb-3">
+                    <div class="card-header" id="headingThree" data-toggle="collapse"
+                      data-target="#collapseThree, #backend">
+                        <h2 class="mb-0 d-flex justify-content-between">
+                          <small class="sub-title pt-2">Backend Development </small>
+                          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                      data-parent="#myAccordion">
+                        <div class="card-b">
+                            <ul class="list-unstyled">
+                              <li class=" px-5 py-3 mb-2 list-div mb-2 mt-2">PHP</li>
+                              <li class="list-div px-5 py-3 mb-2">NodeJS</li>
+                              <li class="list-div px-5 py-3 mb-2">Python</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card border-0 mb-3">
+                    <div class="card-header " id="headingFour" data-toggle="collapse"
+                      data-target="#collapseFour, #mobile">
+                        <h2 class="mb-0 d-flex justify-content-between">
+                          <small class="sub-title pt-2">Mobile Development </small>
+                          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                      data-parent="#myAccordion">
+                        <div class="card-b border-0">
+                            <ul class="list-unstyled">
+                              <li class=" px-5 py-3 mb-2 list-div mt-2 mb-2">Java</li>
+                              <li class="list-div px-5 py-3 mb-2">Kotlin</li>
+                              <li class="list-div px-5 py-3 mb-2">Flutter</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="col-lg-9 col-12 mb-5">
+            <div class=" home32-cont tab-content mt-3">
+              <h3 class="text-center track-title mt-4"> View Our Detailed Curriculum By Track</h3>
+              <p class="track-text text-center my-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatem
+                  soluta fugit odit eos quo consequuntur perspiciatis error minima excepturi?</p>
+              <!-- <div class="home32-btns">
+
+                  <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+              </div> -->
+            </div>
+         
+
+          <!-- design curriculum-->
+            <div class=" tabcontent collapseOne collapse" aria-labelledby="headingOne"
+              data-parent="#myAccordion">
+                <div class="home32-cont">
+                   <p class="course-title"> 1. Understanding the Principles and Theory of Visual Design</p>
+                   <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                    <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                   <p class="course-title">2. Standing Strong with a Historical Graphic Design Grounding</p>
+                    <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                    <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                    </div>
+                </div>
+                <div class="home32-cont">
+                    <p class="course-title"> 3. Internalize the Visual Design Process, Conceptual Solutions, Real
+                      World Experience</p>
+                    <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                    <div class="home32-btns">
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                    </div>
+                </div>
+                <div class="home32-cont">
+                    <p class="course-title">4. Understanding the Principles and Theory of Visual Design</p>
+                    <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                    <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                    </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title">5. Internalize the Visual Design Process, Conceptual Solutions, Real
+                      World Experience</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title"> 6. Understanding the Principles and Theory of Visual Design</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+           </div>
+
+          <!-- frontend -->
+            <div class=" tabcontent collapseTwo collapse " id="frontend" data-parent="#myAccordion">
+                <div class="home32-cont">
+                  <p class="course-title">1. HTML - HyperText Markup Language</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+               </div>
+                <div class="home32-cont">
+                  <p class="course-title">2. CSS Tips and Tricks</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title"> 3. Javascript DOM Manipulation </p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title">4. Understanding the Principles and Theory of Visual Design</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title">5. Internalize the Visual Design Process, Conceptual Solutions, Real
+                      World Experience</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+                      <button class="btn btn2">More Details</button>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title"> 6. Understanding the Principles and Theory of Visual Design</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+            </div>
+
+          <!-- backend -->
+            <div class=" tabcontent collapse" id="backend" data-parent="#myAccordion">
+                <div class="home32-cont">
+                  <p class="course-title">1. NodeJS For Beginners</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title">2. PHP For Dummies</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+               <div class="home32-cont">
+                  <p class="course-title"> 3. Getting Started with Python, Real World Experience</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title">4. Understanding the Principles and Theory of Visual Design</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title">5. Internalize the Visual Design Process, Conceptual Solutions, Real
+                      World Experience</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title"> 6. Understanding the Principles and Theory of Visual Design</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+            </div>
+          <!-- mobile -->
+            <div class=" tabcontent collapse" id="mobile" data-parent="#myAccordion">
+                <div class="home32-cont">
+                  <p class="course-title">1. Getting Started with Java</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title">2. Getting Started with Kotlin</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title"> 3. Getting Started with Flutter, Real World Experience</h4>
+                      <p class="course-text"> There are a few visual design principles that effect every project
+                          you'll create.
+                          Understanding
+                          these principles conceptually and learning to apply them practically...</p>
+                      <div class="home32-btns">
+                          <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                      </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title">4. Understanding the Principles and Theory of Visual Design</p>
+                  <p class="course-text"> There are a few visual design principles that effect every project
+                      you'll create.
+                      Understanding
+                      these principles conceptually and learning to apply them practically...</p>
+                  <div class="home32-btns">
+
+                      <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                  </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title">5. Internalize the Visual Design Process, Conceptual Solutions, Real
+                      World Experience</h4>
+                      <p class="course-text"> There are a few visual design principles that effect every project
+                          you'll create.
+                          Understanding
+                          these principles conceptually and learning to apply them practically...</p>
+                      <div class="home32-btns">
+                          <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                      </div>
+                </div>
+                <div class="home32-cont">
+                  <p class="course-title"> 6. Understanding the Principles and Theory of Visual Design</h4>
+                      <p class="course-text"> There are a few visual design principles that effect every project
+                          you'll create.
+                          Understanding
+                          these principles conceptually and learning to apply them practically...</p>
+                      <div class="home32-btns">
+                          <a href="/single-curriculum.html"><button class="btn btn2">More Details</button></a>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+@endsection
